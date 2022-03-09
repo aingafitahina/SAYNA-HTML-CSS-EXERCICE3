@@ -39,7 +39,7 @@ div > a{
     height: auto;
     padding: auto;
 }
-
+/* icon*/
 .photo3{
     margin-top: 5%;
 }
@@ -47,6 +47,7 @@ div > a{
     padding: 2%;
 }
 
+/* partie john do */
 .border{
     border-radius: 50%;
     background-color: #fff;  
@@ -67,14 +68,15 @@ div > a{
     text-align: start;
     margin-left: 25%;
 }
-.text{
-    max-width: 75%;
-}
+
 
 
 .container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
      
   }
   
@@ -86,6 +88,7 @@ div > a{
     .body{
         margin: auto;
         overflow: hidden;
+        font-size: 10px;
     }
     .photo4{
         width: 35px;
@@ -106,14 +109,9 @@ div > a{
         float: none;
         width: 100%;
     }
+    .imag{
+        width: 10%;
+    }
   
-    .text{
-        display: block;
-        padding: 0px 0px;
-
-    }
-    .photo5{
-        
-        width:50%;
-    }
+ 
 }
